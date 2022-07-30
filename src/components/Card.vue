@@ -1,0 +1,7 @@
+<template>
+  <div class="secondary"></div>
+</template>
+
+<script setup></script>
+
+<style lang="scss" scoped></style>
