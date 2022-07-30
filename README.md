@@ -1,7 +1,10 @@
-# Vue 3 + Vite
+# Teleport 實作 bilbil 播放器效果
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# 分析做法
 
-## Recommended IDE Setup
+1. 使用西瓜播放器建立播放器
+   https://v2.h5player.bytedance.com/gettingStarted/#%E5%AE%89%E8%A3%85
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+2. 使用 Vue3 的 Teleport 建立傳送的內容
+
+3. 使用 usevue 的 useIntersectionObserver 監聽播放器主區域是否在 viewport
